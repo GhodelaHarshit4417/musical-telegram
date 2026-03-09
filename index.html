@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Web Solutions | Premium Web & E-commerce Development</title>
+    <meta name="description" content="Expert Website Development, E-commerce B2G solutions, and Business Email services for global sellers.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="cursor"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">HARSHIT<span>WEB</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#ecommerce">E-commerce</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero parallax-bg">
+        <div class="container hero-split">
+            <div class="hero-content fade-in">
+                <h1>Scale Your Business with <span class="text-blue">Smart Solutions</span></h1>
+                <p>From custom web development to global B2G e-commerce strategy, we build the digital backbone of your success.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-outline">Our Services</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <img src="https://picsum.photos/id/1/600/400" alt="Tech Workspace" class="parallax-layer" data-speed="2">
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <h3 class="counter" data-target="500">0</h3>
+                <p>Projects Delivered</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="150">0</h3>
+                <p>E-commerce Stores</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="98">0</h3>
+                <p>% Client Retention</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Core Expertise</h2>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>High-performance, SEO-optimized corporate websites built with modern frameworks.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>E-commerce B2G</h3>
+                    <p>Specialized solutions for Business-to-Government selling and large-scale tenders.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <h3>Business Email</h3>
+                    <p>Secure, professional email hosting to build brand authority and trust.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Transparent Pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <h4>Startup</h4>
+                    <div class="price">$499</div>
+                    <ul>
+                        <li>5 Page Website</li>
+                        <li>Basic SEO</li>
+                        <li>1 Year Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Choose Plan</a>
+                </div>
+                <div class="pricing-card reveal featured">
+                    <h4>Business</h4>
+                    <div class="price">$1,299</div>
+                    <ul>
+                        <li>E-commerce Ready</li>
+                        <li>B2G Integration</li>
+                        <li>Premium Hosting</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">How long does a project take? <i class="fas fa-chevron-down"></i></div>
+                    <div class="accordion-content"><p>Standard websites take 2-3 weeks, while complex e-commerce builds take 6-8 weeks.</p></div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">Do you provide B2G support? <i class="fas fa-chevron-down"></i></div>
+                    <div class="accordion-content"><p>Yes, we specialize in onboarding sellers to government marketplaces and managing compliance.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container contact-split">
+            <form id="contact-form" class="reveal">
+                <h3>Send us a Message</h3>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="map-container reveal">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153166!3d-37.81627977975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2zTWVsYm91cm5lIFZJQywgQXVzdHJhbGlh!5e0!3m2!1sen!2sin!4v1625645321000!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h4>HARSHIT WEB</h4>
+                <p>Empowering sellers through technology and global reach.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Email">
+                    <button class="btn-sm">Join</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Harshit Web Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <button id="backToTop"><i class="fas fa-arrow-up"></i></button>
+    <div class="sticky-cta">
+        <a href="https://wa.me/yournumber" target="_blank"><i class="fab fa-whatsapp"></i> Chat Now</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
